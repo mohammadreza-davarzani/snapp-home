@@ -1,0 +1,8 @@
+
+.scrollbar2
+{
+	float: left;
+    height: 100% !important;
+    width:100%;
+	overflow-y: scroll;
+}

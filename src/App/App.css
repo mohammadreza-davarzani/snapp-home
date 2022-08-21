@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'iransans';
+  src: url('../assets/font/IRANSansWeb\(FaNum\)_Medium.woff');
+}
+*{
+  font-family: 'iransans' ;
+}

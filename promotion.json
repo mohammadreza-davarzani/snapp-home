@@ -1,0 +1,55 @@
+{
+  "data":[
+      {
+          "id":1,
+          "img":"https://jek.snapp.ir/Redesign-Banners/room-june22/Large%20banner-FR-base.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Room.png",
+          "color":"rgb(255, 67, 64)",
+          "title":"با پشتیبانی خوب اقامت کنید",
+          "textButton":"رزرو کنید",
+          "contentText":"+ پشتیبانی ۲۴ ساعته",
+          "desiredScore":"1400"
+      },
+      {
+        "id":2,
+        "img":"https://jek.snapp.ir/Redesign-Banners/Investment%20banners%20/Investment%2011july21/Inapp-L-Fa-Investment.jpg",
+        "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Edited%20icons/Wealth2.png",
+        "color":"rgb(0, 142, 250)",
+        "title":"به «سرمایه‌گذاری» دسترسی داشته باشید",
+        "textButton":"وارد شوید",
+        "contentText":"مدیریت صندوق‌های سرمایه‌گذاری و بیشتر",
+        "desiredScore":"1400"
+      },
+      {
+        "id":3,
+        "img":"https://jek.snapp.ir/Redesign-Banners/Hotel%20banners/Larg-Banner-promo.jpg",
+        "logo":"https://jek.snapp.ir/Redesign-Icons/Icons%20in%20Banners%27%20bottom%20bar/Static%20banners%20icons/Hotel36px-static%20banner.png",
+        "color":"rgb(255, 67, 64)",
+        "title":"به راحتی هتل خارجی رزرو کنید",
+        "textButton":"رزرو کنید",
+        "contentText":"اقامت با بهترین قیمت ",
+        "desiredScore":"1400"
+      },
+      {
+        "id":4,
+        "img":"https://jek.snapp.ir/Redesign-Banners/driver-june22-small%20and%20large/APP%20BANNERInapp-Larg-Fa.jpg",
+        "logo":"https://jek.snapp.ir/Redesign-Icons/Icons%20in%20Banners%27%20bottom%20bar/Static%20banners%20icons/Digital%20signup36px-static%20banner.png",
+        "color":"rgb(0, 209, 112)",
+        "title":"اسنپی شوید و پاداش بگیرید",
+        "textButton":"ثبت نام کنید",
+        "contentText":"ویژه‌ی رانندگان موتور، وانت و سواری",
+        "desiredScore":"1400"
+      },
+      {
+        "id":5,
+        "img":"https://jek.snapp.ir/Redesign-Banners/food/Food%20vendors%2016Ocr21/large-by%20snapp-Fa.jpg",
+        "logo":"https://jek.snapp.ir/Redesign-Icons/Icons%20in%20Banners%27%20bottom%20bar/Static%20banners%20icons/Food36px-static%20banner.png",
+        "color":"rgb(255, 0, 164)",
+        "title":"از فروش خود لذت ببرید",
+        "textButton":"شروع کنید",
+        "contentText":"افزایش فروش رستوران با ثبت‌نام در اسنپ",
+        "desiredScore":"1400"
+      }
+
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "data":[
+      {
+          "id":1,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"سفارش غذا",
+          "desiredScore":"1400",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Food_resize_2.jpg"
+      },
+      {
+          "id":2,
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Pharmacyy1.png",
+          "textType":"ارسال دارو با نسخه",
+          "desiredScore":"1200",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/drug_resize_2.jpg"
+      },
+      {
+          "id":3,
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Doctor.png",
+          "textType":"مشاوره پزشکی",
+          "desiredScore":"1300",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Dr_resize_2.jpg"
+      },
+      {
+          "id":4,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011684.png",
+          "textType":"قرعه کشی Galexy s22",
+          "desiredScore":"500",
+          "img":"https://jek.snapp.ir/Loyalty/Club-Lottery-Galaxy%20Mordad.jpg"
+      },
+      {
+          "id":5,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011684.png",
+          "textType":"قرعه کشی ps5",
+          "desiredScore":"500",
+          "img":"https://jek.snapp.ir/Loyalty/Club-Lottery-PS5-Mordad.jpg"
+      },
+      {
+          "id":6,
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Flight.png",
+          "textType":"اولین بلیت پرواز داخلی",
+          "desiredScore":"1000",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Flight_resize_2.jpg"
+      },
+      {
+          "id":7,
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "textType":"اولین رزرو هتل",
+          "desiredScore":"1000",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Hotel_resize_2.jpg"
+      },
+      {
+          "id":8,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011684.png",
+          "textType":"نیکوکاری",
+          "desiredScore":"2000",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/homeless.jpg"
+      },
+      {
+          "id":9,
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Market_resize_2.jpg",
+          "textType":"سوپرمارکت",
+          "desiredScore":"1400",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Market_resize_2.jpg"
+      },
+      {
+          "id":10,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011701.png",
+          "textType":"فروشگاه",
+          "desiredScore":"1400",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Club-Cover-3.jpg"
+      },
+      {
+          "id":11,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"سفارش شیرینی",
+          "desiredScore":"2000",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/sweets_resize_2.jpg"
+      },
+      {
+          "id":12,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"سفارش شیرینی",
+          "desiredScore":"1200",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/sweets_resize_2.jpg"
+      },
+      {
+          "id":13,
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/gishe.png",
+          "textType":"بلیت تم‌پارک‌ و شهربازی‌ها",
+          "desiredScore":"1200",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/theme-park-1.jpg"
+      },
+      {
+          "id":14,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"سفارش میوه",
+          "desiredScore":"1537",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/fruit_resize_2.jpg"
+      },
+      {
+          "id":15,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"سفارش میوه",
+          "desiredScore":"737",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/fruit_resize_2.jpg"
+      },
+      {
+          "id":16,
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/gishe.png",
+          "textType":"بلیت باغ پرندگان تهران",
+          "desiredScore":"737",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Birds.jpg"
+      },
+      {
+          "id":17,
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/gishe.png",
+          "textType":"استخرآفتاب باشگاه انقلاب",
+          "desiredScore":"1200",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/enghelab.jpg"
+      },
+      {
+          "id":18,
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/gishe.png",
+          "textType":"خرید بلیط استخر",
+          "desiredScore":"1200",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/gishe_pool.jpg"
+      },
+      {
+          "id":19,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"خرید نان",
+          "desiredScore":"2000",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Bakery_resize_2.jpg"
+      },
+      {
+          "id":20,
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011692.png",
+          "textType":"خرید نان",
+          "desiredScore":"1200",
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Bakery_resize_2.jpg"
+      }
+
+  ]
+}

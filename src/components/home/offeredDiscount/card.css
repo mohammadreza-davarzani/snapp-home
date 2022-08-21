@@ -1,0 +1,22 @@
+.card{
+    width: 326px;
+    height: 288px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px !important;
+}
+.img{
+    height: 178px;
+    width: 100%;
+}
+.img-main{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.mar{
+    margin-right: 13px !important;
+}
+
+

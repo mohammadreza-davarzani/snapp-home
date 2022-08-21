@@ -1,0 +1,31 @@
+.up{
+    border-color: rgb(190, 39, 44) !important;
+    height: 48px !important;
+    font-size: 14px !important;
+    min-height: 48px !important;
+    line-height: 1 !important;
+    color: rgb(190, 39, 44) !important;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid transparent;
+    border-left: none;
+    border-image: initial;
+    padding: 0px 16px;
+    max-width: 100%;
+    background-color: transparent;
+}
+.anim{
+    transform: translateY(-100%);
+}
+.anim2{
+    transform: translateY(0);
+    transition: 1s;
+
+}
+
+.price{
+    background-color: rgba(64, 64, 64, 0.02);
+}
+.btn{
+    background-color: rgb(0, 204, 109);
+}
