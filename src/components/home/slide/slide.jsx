@@ -17,12 +17,12 @@ const Slide = () => {
         {
             key:"img1",
             alt:"img1",
-            src:"https://jek.snapp.ir/Redesign-Banners/Sliders/food-aug22/Inapp-334X224-Fa%20%285%29.jpg"
+            src:"https://jek.snapp.ir/Redesign-Banners/Sliders/marketparty-aug22/marketparty%20fa.jpg"
         },
         {
-            key:"img2",
-            alt:"img2",
-            src:"https://jek.snapp.ir/Redesign-Banners/Sliders/food-aug22/Inapp-334X224-Fa%20%285%29.jpg"
+          key:"img2",
+          alt:"img2",
+          src:"https://jek.snapp.ir/Redesign-Banners/Sliders/express/Aug22/ex%20fa.jpg"
         },
         {
             key:"img3",
@@ -34,17 +34,17 @@ const Slide = () => {
             alt:"img4",
             src:"https://jek.snapp.ir/Redesign-Banners/Sliders/gishe-aug22/gishe%20fa.jpg"
         },
+        
         {
             key:"img5",
             alt:"img5",
-            src:"https://jek.snapp.ir/Redesign-Banners/Sliders/express/Aug22/ex%20fa.jpg"
-        },
-        {
-            key:"img6",
-            alt:"img6",
             src:"https://jek.snapp.ir/Redesign-Banners/Sliders/Pharmacy-jan2022%2860k%29/delivery-service_Large-FA_2.jpg"
         },
-        
+        {
+          key:"img6",
+          alt:"img6",
+          src:"https://jek.snapp.ir/Redesign-Banners/Sliders/intercity-aug22/trip%20fa.jpg"
+      },
         
     ]
   return (
