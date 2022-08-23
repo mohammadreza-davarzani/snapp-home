@@ -26,16 +26,7 @@ const Promotion = () =>{
         }
             
            
-           <br></br>
-           <br></br>
-
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
+           
 
 
 
