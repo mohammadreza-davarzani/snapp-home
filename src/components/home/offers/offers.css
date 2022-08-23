@@ -1,0 +1,9 @@
+.img-main-two{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.img-tw{
+    height: 144px;
+    width: 300px;
+}
