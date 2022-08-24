@@ -17,7 +17,7 @@ const InventoryIncrease = (props) =>{
         <>
           <div
           dir="rtl"
-            className=" flex overflow-x-hidden overflow-y-auto fixed bottom-0  z-50 outline-none focus:outline-none"
+            className=" flex overflow-x-hidden overflow-y-auto fixed bottom-0  z-50 outline-none focus:outline-none z1"
           >
             <div className="relative   w-full">
               {/*content*/}
