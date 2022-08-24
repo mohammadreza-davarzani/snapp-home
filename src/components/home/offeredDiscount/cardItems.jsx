@@ -5,14 +5,14 @@ const CardItems = ({items}) =>{
     const number = Math.floor(Math.random() * 1001)
     return(
         <>
-        <div className="card rounded-b-xl bg-white mt-4 	 shadow-xl">
+        <div className="card rounded-b-lg bg-white mt-4 	 shadow-md">
             <div className="img">
-                <img className="img-main rounded-t-xl" src={items.img}/>
+                <img className="img-main rounded-t-lg" src={items.img}/>
             </div>
 
             <div style={{}} className=" h-36  ">
                 <div className="px-2 flex ">
-                    <div className="w-12 h-12 my-2 animate-pulse"><img  src={items.logo}/></div>
+                    <div className="w-12 h-12 my-2 "><img  src={items.logo}/></div>
                     <div className="text-sm text-black justify-center items-center flex px-2" >{items.textType}</div>
                 </div>
                 <div className="px-2 flex ">
