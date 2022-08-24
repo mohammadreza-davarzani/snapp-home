@@ -26,5 +26,5 @@
     background: linear-gradient(rgba(247, 247, 247, 0) 25%, rgb(247, 247, 247) 65%, rgb(247, 247, 247));
 }
 .z{
-    z-index: 0 !important;
+    z-index: 999999 !important;
 }
