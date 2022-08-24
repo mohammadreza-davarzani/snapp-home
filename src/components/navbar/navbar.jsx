@@ -10,7 +10,7 @@ import Home from "../home/home"
 
 import "./navbar.css"
 function TabPanel(props) {
-    const { children, value, index, ...other } = props;
+    const { children, value, index,  } = props;
   
     return (
        
@@ -19,7 +19,6 @@ function TabPanel(props) {
         hidden={value !== index}
         id={`simple-tabpanel-${index}`}
         aria-labelledby={`simple-tab-${index}`}
-        {...other}
       >
         {value === index && (
           <Box >
@@ -51,14 +50,14 @@ const Navbar = () =>{
                     <FontAwesomeIcon icon={faWallet} className='mx-auto text-gray-500' width={25} height={25} />
                 </button>
             </div>
-            <Tabs  textColor="" variant="fullWidth"  TabIndicatorProps={{style: {backgroundColor: "rgb(34, 170, 88)",}}}  value={value} onChange={(event, newValue) => { setValue(newValue); console.log(newValue)}} >
+            <Tabs  textColor="inherit" variant="fullWidth"  TabIndicatorProps={{style: {backgroundColor: "rgb(34, 170, 88)",}}}  value={value} onChange={(event, newValue) => { setValue(newValue); console.log(newValue)}} >
                 <Tab  label={img}  />
                 <Tab  label={img2}  />
                 <Tab  label={img3}  />
             </Tabs>
             <TabPanel value={value} index={0}>
             <div  className="scrollbar2  " id="target">
-              <div class="force-overflow">
+              <div className="force-overflow">
                 <Home/>
               </div>
             </div>
