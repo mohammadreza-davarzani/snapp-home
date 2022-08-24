@@ -5,7 +5,7 @@ const CardItems = ({items}) =>{
     const number = Math.floor(Math.random() * 1001)
     return(
         <>
-        <div className="card rounded-b-lg bg-white mt-4 	 shadow-md">
+        <div key={items.key} className="card rounded-b-lg bg-white mt-4 	 shadow-md">
             <div className="img">
                 <img className="img-main rounded-t-lg" src={items.img}/>
             </div>

@@ -37,7 +37,7 @@ const Card = () =>{
                 className="h-80 "
             >
                 {data.map((items)=>(
-                    <SwiperSlide className="right-4 left-4"><CardItems items={items}/></SwiperSlide>
+                    <SwiperSlide key={items.key} className="right-4 left-4"><CardItems key={items.key} items={items}/></SwiperSlide>
                 ))}
                
             </Swiper>
