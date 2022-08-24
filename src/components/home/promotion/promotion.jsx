@@ -21,7 +21,7 @@ const Promotion = () =>{
         <>
         {
             data.map((items)=>(
-                <PromotionCard items={items}/>
+                <PromotionCard key={items.id}  items={items}/>
             ))
         }
             

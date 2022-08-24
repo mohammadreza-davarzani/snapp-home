@@ -5,7 +5,7 @@ import React from "react";
 const PromotionCard = ({items}) =>{
     return(
         <>
-            <div dir="rtl" className="flex -z-0 flex-col px-4 justify-between items-center">
+            <div dir="rtl" key={items.id} className="flex -z-0 flex-col px-4 justify-between items-center">
                 <div className="flex flex-row justify-between w-full mt-8 ">
                     <div className="mb-3 flex items-center">
                         <div className="ml-2 " style={{backgroundColor:items.color ,borderRadius:"1.5px", width:"10px", height:"10px"}}></div>
