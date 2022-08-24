@@ -49,7 +49,7 @@ const TicketOptions = (props) =>{
         <>
           <div
           dir="rtl"
-            className=" flex z overflow-x-hidden overflow-y-auto fixed bottom-0   outline-none focus:outline-none"
+            className=" flex z1 overflow-x-hidden overflow-y-auto fixed bottom-0   outline-none focus:outline-none"
           >
             <div className="relative  z w-full">
               {/*content*/}
