@@ -13,7 +13,7 @@ const PromotionCard = ({items}) =>{
                     </div>
                 </div>
             </div>
-            <div className=" mx-4  rounded-xl  shadow-xl">
+            <div className=" mx-4  rounded-xl  shadow-md">
                 <div className="img2">
                     <img className="img-main1 relative rounded-xl" src={items.img}/>
                     <div style={{top:"-44px",width:"359px"}} className="flex justify-between relative rounded-b-xl px-2 h-11 bg-white  ...">
