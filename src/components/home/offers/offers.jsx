@@ -12,10 +12,7 @@ const Offers = () =>{
     const [data , setData] = React.useState([])
     const [data2 , setData2] = React.useState([])
     const [data3 , setData3] = React.useState([])
-    const [data4 , setData4] = React.useState([])
-    const [data5 , setData5] = React.useState([])
-    const [data6 , setData6] = React.useState([])
-
+   
 
     
     const getData = () =>{
@@ -38,12 +35,7 @@ const Offers = () =>{
              setData3(res.data);
              console.log("data3:",res.data)
            })
-          axios.get('http://localhost:3003/data4')
-          .then((res) => {
-             // handle success
-             setData4(res.data);
-             console.log("data4:",res.data)
-           })
+          
     }
     React.useEffect(() => {
         getData()
@@ -68,7 +60,7 @@ const Offers = () =>{
                 className=" h-40 "
             >
                 {data.map((items)=>(
-                    <SwiperSlide className="right-4 left-4"><OffersItems items={items}/></SwiperSlide>
+                    <SwiperSlide key={items.id} className="right-4 left-4"><OffersItems items={items}/></SwiperSlide>
                 ))}
                
             </Swiper>
@@ -89,7 +81,7 @@ const Offers = () =>{
                 className="h-40 "
             >
                 {data2.map((items)=>(
-                    <SwiperSlide className="right-4 left-4"><OffersItems items={items}/></SwiperSlide>
+                    <SwiperSlide key={items.id} className="right-4 left-4"><OffersItems items={items}/></SwiperSlide>
                 ))}
                
             </Swiper>
@@ -109,7 +101,7 @@ const Offers = () =>{
                 className="h-40 "
             >
                 {data3.map((items)=>(
-                    <SwiperSlide className="right-4 left-4"><OffersItems items={items}/></SwiperSlide>
+                    <SwiperSlide key={items.id}  className="right-4 left-4"><OffersItems  items={items}/></SwiperSlide>
                 ))}
                
             </Swiper>
