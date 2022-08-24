@@ -3,7 +3,7 @@ import "./offers.css"
 const OffersItems = ({items}) =>{
     return(
         <>
-        <div className="   rounded-xl  shadow-xl">
+        <div key={items.id} className="   rounded-xl  shadow-md">
                 <div className="img-tw">
                     <img className="img-main-two relative rounded-xl" src={items.img}/>
                     <div style={{top:"-44px"}} className="bg-white flex flex-row flex-nowrap items-center justify-between relative h-11 p-2 rounded-b-xl">
