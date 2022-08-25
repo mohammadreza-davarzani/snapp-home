@@ -106,13 +106,7 @@ const Offers = () =>{
                
             </Swiper>
            
-         
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+        
 
         </>
     )
