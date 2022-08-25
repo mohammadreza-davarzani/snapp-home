@@ -2,7 +2,7 @@ import React from "react";
 
 
 const CardItems = ({items}) =>{
-    const number = Math.floor(Math.random() * 1001)
+    const randomPoint = Math.floor(Math.random() * 1001)
     return(
         <>
         <div key={items.key} className="card rounded-b-lg bg-white mt-4 	 shadow-md">
@@ -25,7 +25,7 @@ const CardItems = ({items}) =>{
                 </div>
                 <div  className="mt-3 border border-solid border-gray-100"></div>
                 <div className="flex pt-4 justify-between px-2 items-center">
-                    <div className="text-xs"> {number} امتیاز دیگر برای دریافت این تخفیف نیاز است</div>
+                    <div className="text-xs"> {randomPoint} امتیاز دیگر برای دریافت این تخفیف نیاز است</div>
                     <p className=" " style={{fontSize:"11.9px",color:"rgb(34, 170, 88) "}}>مشاهده</p>
 
                 </div>

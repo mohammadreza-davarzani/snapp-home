@@ -1,15 +1,14 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-
-
 import { FreeMode, Pagination } from "swiper";
-import axios from "axios";
 import CardItems from "./cardItems";
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import axios from "axios";
+import React from "react";
+import "swiper/css";
+
+
+
 
 const Card = () =>{
     const [data , setData] = React.useState([])
