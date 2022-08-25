@@ -1,10 +1,13 @@
 import React from "react";
-import FooterBar from "../components/footerBar/footerBar";
+import { useLocation } from "react-router-dom";
 import Navbar from "../components/navbar/navbar";
+import FooterBar from "../components/footerBar/footerBar";
 const Layout = ({children}) => {
+  const location = useLocation()
   return (
     <>
-    <Navbar/>{children} <FooterBar/>
+    {location.pathname === "/" ?  <> <Navbar/> {children} <FooterBar/> </> : null}
+  
     </>
   );
 }

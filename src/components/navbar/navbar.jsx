@@ -2,6 +2,7 @@ import InventoryIncrease from "../home/inventoryIncrease/inventoryIncrease";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faWallet } from '@fortawesome/free-solid-svg-icons'
 import Typography from '@mui/material/Typography';
+import { useLocation } from "react-router-dom";
 import React , {useState} from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -11,7 +12,6 @@ import Home from "../home/home"
 import "./navbar.css"
 function TabPanel(props) {
     const { children, value, index,  } = props;
-  
     return (
        
       <div
@@ -33,6 +33,8 @@ function TabPanel(props) {
 const Navbar = () =>{
     const [showModal, setShowModal] = React.useState(false);
     const [value, setValue] = React.useState(0);
+    const location = useLocation()
+
     const img =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/green-home.svg"/></div><div className="text-xs mr-1 mt-1">خانه</div></div> ;
     const img2 =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/club.svg"/></div><div className="text-xs mr-1 mt-1">۰ امتیاز</div></div> ;
     const img3 =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="	https://passenger-pwa-cdn.snapp.ir/images/super-app/green-voucher.svg"/></div><div className="text-xs mr-1 mt-1">تخفیف‌ها</div></div> ;
@@ -56,11 +58,7 @@ const Navbar = () =>{
                 <Tab  label={img3}  />
             </Tabs>
             <TabPanel value={value} index={0}>
-            <div  className="scrollbar2  " id="target">
-              <div className="force-overflow">
-                <Home/>
-              </div>
-            </div>
+                {location.pathname === "/" ? <Home/> : null}
             </TabPanel>
             <TabPanel value={value} index={1}>
                 Item Two
