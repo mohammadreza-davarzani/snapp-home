@@ -6,8 +6,8 @@ import {faPlus , faMinus } from '@fortawesome/free-solid-svg-icons'
 
 const InventoryIncrease = (props) =>{
     const [prices , setPrices] = useState(0)
-    let num = prices + 5000
-    let num2 = prices - 5000
+    let plusPrice = prices + 5000
+    let minusPrice = prices - 5000
 
     return (
         <>
@@ -59,11 +59,11 @@ const InventoryIncrease = (props) =>{
                     <button onClick={()=>setPrices('100,000')} className='h-10 text-xs price w-28 mx-auto px-2 border border-solid border-black rounded-md text-gray-500'>100,000 ریال</button>
                 </div>
                 <div className='w-full  flex flex-row px-6 pb-6 pt-3'>
-                    <button onClick={()=>setPrices(num)} className='h-10 text-xs price w-auto p-1  border border-solid border-black rounded-md text-gray-500'>
+                    <button onClick={()=>setPrices(plusPrice)} className='h-10 text-xs price w-auto p-1  border border-solid border-black rounded-md text-gray-500'>
                         <FontAwesomeIcon icon={faPlus} className='mx-auto mt-1 font-bold  text-md text-black' width={30} height={30} />
                     </button>
                     <div  className={prices === 0 ? ' text-xs text-center  w-full my-auto  px-2  text-gray-300' : ' text-xs text-center  w-full my-auto  px-2  text-gray-500' }>{prices === 0 ? "مبالغ دیگر" : prices + "ریال"}</div>
-                    <button onClick={()=>setPrices(num2)} className='h-10 text-xs price w-auto p-1  border border-solid border-black rounded-md text-gray-500'>
+                    <button onClick={()=>setPrices(minusPrice)} className='h-10 text-xs price w-auto p-1  border border-solid border-black rounded-md text-gray-500'>
                         <FontAwesomeIcon icon={faMinus} className='mx-auto mt-1 text-black' width={30} height={30} />
                     </button>
                 </div>
