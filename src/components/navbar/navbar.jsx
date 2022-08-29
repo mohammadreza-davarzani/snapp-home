@@ -1,9 +1,11 @@
 import InventoryIncrease from "../home/inventoryIncrease/inventoryIncrease";
+import {faWallet , faMoon } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWallet } from '@fortawesome/free-solid-svg-icons'
+import { useSelector , useDispatch } from "react-redux";
 import Typography from '@mui/material/Typography';
 import { useLocation } from "react-router-dom";
-import React , {useState} from "react";
+import {type} from '../../actions'
+import React , {useContext} from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
@@ -32,12 +34,14 @@ function TabPanel(props) {
   }
 const Navbar = () =>{
     const [showModal, setShowModal] = React.useState(false);
+    const isTheme = useSelector(state => state.theme)
     const [value, setValue] = React.useState(0);
     const location = useLocation()
+    const dispatch = useDispatch();
 
-    const img =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/green-home.svg"/></div><div className="text-xs mr-1 mt-1">خانه</div></div> ;
-    const img2 =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/club.svg"/></div><div className="text-xs mr-1 mt-1">۰ امتیاز</div></div> ;
-    const img3 =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="	https://passenger-pwa-cdn.snapp.ir/images/super-app/green-voucher.svg"/></div><div className="text-xs mr-1 mt-1">تخفیف‌ها</div></div> ;
+    const home =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/green-home.svg"/></div><div className="text-xs mr-1 mt-1">خانه</div></div> ;
+    const offers =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/club.svg"/></div><div className="text-xs mr-1 mt-1">۰ امتیاز</div></div> ;
+    const listOffers =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="	https://passenger-pwa-cdn.snapp.ir/images/super-app/green-voucher.svg"/></div><div className="text-xs mr-1 mt-1">تخفیف‌ها</div></div> ;
   
     return(
   
@@ -48,14 +52,21 @@ const Navbar = () =>{
                 <div>
                     <img src="https://passenger-pwa-cdn.snapp.ir//logos/snapp-green.svg" width="75" height="27" className="object-contain" alt="logo" />
                 </div>
-                <button onClick={() => setShowModal(true)} className="bg-whit rounded-full shadow-md">
-                    <FontAwesomeIcon icon={faWallet} className='mx-auto text-gray-500' width={25} height={25} />
-                </button>
+                <div>
+                    {isTheme == false ? console.log("false") : console.log("true")}
+                    <button onClick={()=>dispatch(type())}  className="bg-whit rounded-full shadow-md">
+                        <FontAwesomeIcon icon={faMoon} className='mx-auto text-gray-500' width={25} height={25} />
+                    </button>
+                    <button onClick={() => setShowModal(true)} className="bg-whit rounded-full shadow-md">
+                        <FontAwesomeIcon icon={faWallet} className='mx-auto text-gray-500' width={25} height={25} />
+                    </button>
+                </div>
+                
             </div>
             <Tabs  textColor="inherit" variant="fullWidth"  TabIndicatorProps={{style: {backgroundColor: "rgb(34, 170, 88)",}}}  value={value} onChange={(event, newValue) => { setValue(newValue); console.log(newValue)}} >
-                <Tab  label={img}  />
-                <Tab  label={img2}  />
-                <Tab  label={img3}  />
+                <Tab  label={home}  />
+                <Tab  label={offers}  />
+                <Tab  label={listOffers}  />
             </Tabs>
             <TabPanel value={value} index={0}>
                 {location.pathname === "/" ? <Home/> : null}
