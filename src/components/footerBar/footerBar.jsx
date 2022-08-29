@@ -1,5 +1,4 @@
 import { Link ,  useLocation} from 'react-router-dom';
-// import { ThemeContext } from "../../context/context";
 import React, {useState , useEffect} from "react";
 
 import cab from '../../assets/cab.png';
@@ -9,7 +8,6 @@ import box from '../../assets/Box2.png';
 
 import './footer.css'
 const FooterBar = () => {
-    // const {themeMode, toggle} = React.useContext(ThemeContext)
 
     useEffect(() => {
         if (location && location.pathname) {
