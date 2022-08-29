@@ -100,7 +100,7 @@ const Offers = () =>{
                 spaceBetween={30}
                 freeMode={true}
                 modules={[FreeMode, Pagination]}
-                className="h-40 "
+                className="h-40 mb-32"
             >
                 {data3.map((items)=>(
                     <SwiperSlide key={items.id}  className="right-4 left-4"><OffersItems  items={items}/></SwiperSlide>
