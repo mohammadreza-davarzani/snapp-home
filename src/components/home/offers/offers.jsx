@@ -4,6 +4,7 @@ import React from "react";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import OffersItems from "./offersItems";
+import { useSelector } from "react-redux";
 import { FreeMode, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,7 +13,8 @@ const Offers = () =>{
     const [data , setData] = React.useState([])
     const [data2 , setData2] = React.useState([])
     const [data3 , setData3] = React.useState([])
-   
+    const isTheme = useSelector(state => state.theme)
+    const theme = isTheme == false ;
 
     
     const getData = () =>{
@@ -47,7 +49,7 @@ const Offers = () =>{
                 <div className="flex flex-row justify-between w-full mt-8 ">
                     <div className="mb-3 flex items-center">
                         <div className="ml-2 " style={{backgroundColor:"rgb(255, 0, 164)" ,borderRadius:"1.5px", width:"10px", height:"10px"}}></div>
-                        <p  style={{fontSize:"17.08px"}}>از بین محصولات متنوع انتخاب کنید</p>
+                        <p className={theme ? "" : "text-white"}  style={{fontSize:"17.08px"}}>از بین محصولات متنوع انتخاب کنید</p>
                     </div>
                 </div>
             </div>
@@ -68,7 +70,7 @@ const Offers = () =>{
                 <div className="flex flex-row justify-between w-full mt-8 ">
                     <div className="mb-3 flex items-center">
                         <div className="ml-2 " style={{backgroundColor:"rgb(88, 192, 249)" ,borderRadius:"1.5px", width:"10px", height:"10px"}}></div>
-                        <p  style={{fontSize:"17.08px"}}>از بهترین متخصصان مشاوره بگیرید !</p>
+                        <p className={theme ? "" : "text-white"}  style={{fontSize:"17.08px"}}>از بهترین متخصصان مشاوره بگیرید !</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +91,7 @@ const Offers = () =>{
                 <div className="flex flex-row justify-between w-full mt-8 ">
                     <div className="mb-3 flex items-center">
                         <div className="ml-2 " style={{backgroundColor:"rgb(0, 209, 112)" ,borderRadius:"1.5px", width:"10px", height:"10px"}}></div>
-                        <p  style={{fontSize:"17.08px"}}>با اسنپ همراه باشید </p>
+                        <p className={theme ? "" : "text-white"} style={{fontSize:"17.08px"}}>با اسنپ همراه باشید </p>
                     </div>
                 </div>
             </div>

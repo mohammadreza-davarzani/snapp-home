@@ -1,13 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { Component } from 'react'
 import {faEllipsis} from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom';
 import TicketOptions from './ticketOptions';
 import PanelOptions from './panelOptions';
+import { useSelector } from "react-redux";
+import React from 'react';
 const QuickAccess = () => {
   const [showModal, setShowModal] = React.useState(false);
   const [showModal2, setShowModal2] = React.useState(false);
-
+  const isTheme = useSelector(state => state.theme)
+  const theme = isTheme == false ;
     const menus = [
    
         {
@@ -15,7 +16,7 @@ const QuickAccess = () => {
           name:'بلیط سفر',
           isActive:false,
           icon: <button onClick={() => setShowModal(true)} className='relative' style={{width:"46px"}}> 
-                    <div className='flex absolute h-4 p-0.5  justify-center items-center z-10' style={{fontSize:"15px", backgroundColor:"rgb(255, 67, 64)",left:"-15px",bottom:"1px", borderRadius:"9px", border:"3px solid rgb(255,255,255)"}}><FontAwesomeIcon className='text-white' icon={faEllipsis}/></div>
+                    <div className='flex absolute h-4 p-0.5  justify-center items-center z-10' style={{fontSize:"15px", backgroundColor:"rgb(255, 67, 64)",left:"-15px",bottom:"1px", borderRadius:"9px", border:theme ? "3px solid rgb(255,255,255)":"3px solid rgb(17 ,24 ,39 )"}}><FontAwesomeIcon className='text-white' icon={faEllipsis}/></div>
                     <img src="https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Trip/Trip.png" className="mb-1"  width={50} height={50} />
                 </button>,
         },
@@ -81,7 +82,7 @@ const QuickAccess = () => {
               icon:<button className='relative' style={{width:"46px"}}> 
                <div className='flex absolute text-white  justify-center items-center z-10' 
                     style=
-                    {{fontSize:"10px", backgroundColor:"rgb(255, 67, 64)",right:"45px",bottom:"38px", borderRadius:"11px", border:"3px solid rgb(255,255,255)",padding:"0px 4px 1px"}}>ویژه</div>
+                    {{fontSize:"10px", backgroundColor:"rgb(255, 67, 64)",right:"45px",bottom:"38px", borderRadius:"11px", border:theme ? "3px solid rgb(255,255,255)":"3px solid rgb(17 ,24 ,39 )",padding:"0px 4px 1px"}}>ویژه</div>
                       <img src="https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Driver.png" className="mb-1 mr-3"  width={50} height={50} />
                   </button>
           },
@@ -108,7 +109,7 @@ const QuickAccess = () => {
             key:"11",
             isActive:false,
             icon:<button onClick={() => setShowModal2(true)} className='relative' style={{width:"46px"}}> 
-                    <div className='flex absolute h-4 p-0.5  justify-center items-center z-10' style={{fontSize:"15px", backgroundColor:"rgb(0, 209, 112)",left:"-15px",bottom:"1px", borderRadius:"9px", border:"3px solid rgb(255,255,255)"}}><FontAwesomeIcon className='text-white' icon={faEllipsis}/></div>
+                    <div className='flex absolute h-4 p-0.5  justify-center items-center z-10' style={{fontSize:"15px", backgroundColor:"rgb(0, 209, 112)",left:"-15px",bottom:"1px", borderRadius:"9px", border:theme ? "3px solid rgb(255,255,255)":"3px solid rgb(17 ,24 ,39 )"}}><FontAwesomeIcon className='text-white' icon={faEllipsis}/></div>
                     <img src="https://jek.snapp.ir/Redesign-Icons/corporate/Corporate.png" className="mb-1"  width={50} height={50} />
                 </button>,
           },
@@ -127,7 +128,7 @@ const QuickAccess = () => {
                 <a target="_blanck" href={menu.to}>
                   <div className='items-center  my-0 mx-auto'>
                       {menu.icon} 
-                      <div style={{wordSpacing:"-3.4px"}} className='text-xs  flex justify-center'>{menu.name}</div>              
+                      <div style={{wordSpacing:"-3.4px"}} className={theme ?'text-xs  flex justify-center' : 'text-xs  flex justify-center text-white'}>{menu.name}</div>              
                   </div>
                 </a>
             </div>

@@ -1,15 +1,18 @@
+import { useSelector } from "react-redux";
 import React from "react";
 
 
 
 const PromotionCard = ({items}) =>{
+    const isTheme = useSelector(state => state.theme)
+    const theme = isTheme == false ;
     return(
         <>
             <div dir="rtl" key={items.id} className="flex -z-0 flex-col px-4 justify-between items-center">
                 <div className="flex flex-row justify-between w-full mt-8 ">
                     <div className="mb-3 flex items-center">
                         <div className="ml-2 " style={{backgroundColor:items.color ,borderRadius:"1.5px", width:"10px", height:"10px"}}></div>
-                        <p  style={{fontSize:"17.08px"}}>{items.title}</p>
+                        <p className={theme ? "" : "text-white"}  style={{fontSize:"17.08px"}}>{items.title}</p>
                     </div>
                 </div>
             </div>

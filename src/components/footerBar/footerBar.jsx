@@ -1,10 +1,10 @@
 import { Link ,  useLocation} from 'react-router-dom';
 import React, {useState , useEffect} from "react";
-
-import cab from '../../assets/cab.png';
-import food from '../../assets/Food.png';
 import market from '../../assets/Market.png';
+import { useSelector } from "react-redux";
+import food from '../../assets/Food.png';
 import box from '../../assets/Box2.png';
+import cab from '../../assets/cab.png';
 
 import './footer.css'
 const FooterBar = () => {
@@ -16,6 +16,9 @@ const FooterBar = () => {
         }
       });
     const location = useLocation();
+
+    const isTheme = useSelector(state => state.theme)
+
     const menus = [
    
         {
@@ -64,7 +67,7 @@ const FooterBar = () => {
                 <Link to={menu.to}>
                     {menu.icon}
                 </Link>
-                <div className='text-center font-light text-xs'>{menu.name}</div>
+                <div className={isTheme === false ?'text-center flex justify-center items-center font-light text-xs' : 'flex justify-center items-center text-center font-light text-xs text-white'}>{menu.name}</div>
             </div>
     ) 
         
@@ -72,10 +75,10 @@ const FooterBar = () => {
      return (
         <>        
 
-          <div className='background z'>
+          <div className={isTheme === false ? 'background z' : "background2 z"}>
           <div className='footeri justify-center '>
             <div className='justify-center'>
-              <div dir='rtl'  className='navbar justify-between w  mb-4 bg-white drop-shadow-lg text-neutral-content rounded-lg '>
+              <div dir='rtl'  className={isTheme === false ? 'navbar justify-between w  mb-4 bg-white drop-shadow-lg text-neutral-content rounded-lg ' : "navbar justify-between w  mb-4  bg-neutral-800 drop-shadow-lg text-neutral-content rounded-lg "}>
 
                 {menuElement}
               </div>
