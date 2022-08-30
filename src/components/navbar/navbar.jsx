@@ -2,7 +2,7 @@ import InventoryIncrease from "../home/inventoryIncrease/inventoryIncrease";
 import {faWallet , faMoon } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useSelector , useDispatch } from "react-redux";
-import Typography from '@mui/material/Typography';
+  import Typography from '@mui/material/Typography';
 import { useLocation } from "react-router-dom";
 import React , {useContext} from "react";
 import Tabs from '@mui/material/Tabs';
@@ -35,13 +35,13 @@ function TabPanel(props) {
 const Navbar = () =>{
     const isTheme = useSelector(state => state.theme)
     const theme = isTheme == false ;
+    const [value, setValue] = React.useState(0);
 
     const listOffers =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="	https://passenger-pwa-cdn.snapp.ir/images/super-app/green-voucher.svg"/></div><div className={theme ? "text-xs mr-1 mt-1 text-black" : "text-xs mr-1 mt-1 text-white"}>تخفیف‌ها</div></div> ;
-    const offers =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/club.svg"/></div><div className={theme ? "text-xs mr-1 mt-1 text-black" : "text-xs mr-1 mt-1 text-white"}>۰ امتیاز</div></div> ;
+    const offers =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/club.svg"/></div><div className={theme ? "text-xs mr-1 mt-1 text-black" : "text-xs mr-1 mt-1 text-white"}>{value === 1 ? "اسنپ کلاب" : " امتیاز ۰"}</div></div> ;
     const home =<div className="flex justify-between text-center items-center"><div className="relative p-1 flex bg-white rounded-full shadow-md "><img width={15} height={15} src="https://passenger-pwa-cdn.snapp.ir/images/super-app/green-home.svg"/></div><div className={theme ? "text-xs mr-1 mt-1 text-black" : "text-xs mr-1 mt-1 text-white"}>خانه</div></div> ;
    
     const [showModal, setShowModal] = React.useState(false);
-    const [value, setValue] = React.useState(0);
     const location = useLocation()
     const dispatch = useDispatch();
   
