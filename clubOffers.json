@@ -1,0 +1,171 @@
+{
+  "data":[
+      {
+          "id":1,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Market_resize_2.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011697.png",
+          "title":"سوپرمارکت",
+          "value":"12هزار تومان تخفیف",
+          "desiredScore":"1400"
+          
+      },
+      {
+          "id":2,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Dr_resize_2.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Doctor.png",
+          "title":"مشاوره پزشکی",
+          "value":" ۶۰ هزار تومان تخفیف",
+          "desiredScore":"1300"
+      },
+      {
+          "id":3,
+          "img":"https://jek.snapp.ir/Loyalty/Club-Lottery-Galaxy%20Mordad.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011684.png",
+          "title":"قرعه کشی Galexy s22",
+          "value":" یک شانس برای شهریور ماه",
+          "desiredScore":"500"
+      },
+      {
+          "id":4,
+          "img":"https://jek.snapp.ir/Loyalty/Club-Lottery-PS5-Mordad.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011684.png",
+          "title":"قرعه کشی ps5",
+          "value":" یک شانس برای شهریور ماه",
+          "desiredScore":"500"
+      },
+      {
+          "id":5,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Flight_resize_2.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Flight.png",
+          "title":"اولین بلیت پرواز داخلی",
+          "value":" ۵۰ هزار تومان تخفیف",
+          "desiredScore":"1000"
+      },
+      {
+          "id":6,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Hotel_resize_2.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "title":"اولین رزرو هتل",
+          "value":" ۱۰٪ تخفیف (تا سقف ۶۰ هزار تومان)",
+          "desiredScore":"1000"
+      },
+      {
+          "id":7,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Darvishi-Hotel---343x172.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "title":"هتل درویشی مشهد",
+          "value":" ۳۰۰ هزار تومان تخفیف",
+          "desiredScore":"1500"
+      },
+      {
+          "id":8,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Atana-Hotel---343x172.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "title":"هتل آتانا تهران",
+          "value":" ۲۰۰ هزار تومان تخفیف",
+          "desiredScore":"1500"
+      },
+      {
+          "id":9,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Snapp-Club-banner---KakheSarhang---343x172_%281%29.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "title":"هتل کاخ سرهنگ اصفهان",
+          "value":" ۲۰۰ هزار تومان تخفیف",
+          "desiredScore":"1500"
+
+      },
+      {
+        "id":10,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Chamran-Hotel---343x172.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "title":"هتل چمران شیراز",
+          "value":" ۲۰۰ هزار تومان تخفیف",
+          "desiredScore":"1500"
+
+      },
+      {
+          "id":11,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Ataman-Hotel---343x172.jpg",
+          "logo":"https://jek.snapp.ir/Redesign-Icons/Design%20system-New%20icons/Hotel2.png",
+          "title":"هتل آتامان قشم",
+          "value":" ۲۰۰ هزار تومان تخفیف",
+          "desiredScore":"1500"
+          
+      },
+      {
+          "id":12,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Club-Cover-3.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011701.png",
+          "title":"فروشگاه",
+          "value":" ۳۰ هزار تومان تخفیف",
+          "desiredScore":"1000"
+      },
+      
+      {
+          "id":13,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/theme-park-1.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/gishe.png",
+          "title":"بلیت تم‌پارک‌ و شهربازی‌ها",
+          "value":" ۵۰٪ تخفیف (تا سقف ۴۰ هزار تومان)",
+          "desiredScore":"1200"
+      },
+    
+      {
+          "id":14,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/gishe_pool.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/gishe.png",
+          "title":"خرید بلیط استخر",
+          "value":" ۴۰٪ تخفیف (تا سقف ۵۰ هزار تومان)",
+          "desiredScore":"1200"
+      },
+      {
+          "id":15,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Market_resize_2.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/All%20logos/Frame%2011697.png",
+          "title":"سوپرمارکت اسنپ! (هایپراستار)",
+          "value":" ۲۵ هزار تومان تخفیف",
+          "desiredScore":"1500"
+      },
+      {
+        "id":15,
+        "img":"https://jek.snapp.ir/Loyalty/%20Banners/Sib-App.jpg",
+        "logo":"https://jek.snapp.ir/Loyalty/%20Banners/SibAPP.png",
+        "title":"اشتراک سیب‌اپ",
+        "value":"۴۰٪ تخفیف",
+        "desiredScore":"1000"
+      },
+      {
+          "id":17,
+          "img":"https://jek.snapp.ir/Loyalty/%20Banners/chaarbaan.jpg",
+          "logo":"https://jek.snapp.ir/Loyalty/%20Banners/chaarbaan.png",
+          "title":"گرانولا‌ و موسلی‌ چاربان",
+          "value":"۲۰٪ تخفیف",
+          "desiredScore":"1000"
+      },
+      {
+        "id":18,
+        "img":"https://jek.snapp.ir/Loyalty/%20Banners/FDCC4D01-3706-4256-B0DE-4080D6DE4D2C.png",
+        "logo":"https://jek.snapp.ir/Loyalty/%20Banners/Invers.png",
+        "title":"مدرسه اینورس",
+        "value":"۳۱۰ هزار تومان تخفیف",
+        "desiredScore":"1500"
+      },
+      {
+        "id":19,
+        "img":"https://jek.snapp.ir/Loyalty/%20Banners/Resize%20July%2011/Keshmoon2.jpg",
+        "logo":"https://jek.snapp.ir/Loyalty/STWIconsV2/Keshmoon.png",
+        "title":"محصولات کشمون",
+        "value":"۲۰٪ تخفیف",
+        "desiredScore":"1300"
+      },
+      {
+        "id":20,
+        "img":"https://jek.snapp.ir/Loyalty/%20Banners/Limoomee.png",
+        "logo":"https://jek.snapp.ir/Loyalty/%20Banners/LimooIcons.png",
+        "title":"رژیم لیمومی",
+        "value":" تا ۵۰٪ تخفیف",
+        "desiredScore":"1000"
+    }
+
+  ]
+}

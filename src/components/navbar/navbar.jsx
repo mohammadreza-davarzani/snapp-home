@@ -12,6 +12,7 @@ import {type} from '../../actions';
 import Home from "../home/home";
 
 import "./navbar.css"
+import Club from "../club/club";
 function TabPanel(props) {
     const { children, value, index,  } = props;
     return (
@@ -74,7 +75,7 @@ const Navbar = () =>{
                 {location.pathname === "/" ? <Home/> : null}
             </TabPanel>
             <TabPanel value={value} index={1}>
-                Item Two
+                <Club/>
             </TabPanel>
             <TabPanel value={value} index={2}>
                 Item Three
