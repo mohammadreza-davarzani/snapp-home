@@ -16,9 +16,6 @@ const Club = () =>{
                 <div className="force-overflow">
                     <HistoryPoint/>
                     <ClubOffers/>
-                    
-                  
-
                 </div>
             </div>
         </>

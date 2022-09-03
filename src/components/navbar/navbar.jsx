@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useSelector , useDispatch } from "react-redux";
   import Typography from '@mui/material/Typography';
 import { useLocation } from "react-router-dom";
+import OffersTab from "../offersTab/offersTab";
 import React , {useContext} from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -78,7 +79,7 @@ const Navbar = () =>{
                 <Club/>
             </TabPanel>
             <TabPanel value={value} index={2}>
-                Item Three
+              <OffersTab/>
             </TabPanel>
         </header>
         </> 
